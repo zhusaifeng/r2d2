@@ -16,7 +16,7 @@ pair_path = os.path.join('images', 'pair_%d' % pair_idx)
 image1=cv2.imread("imgs/part2/1.jpg")
 print(image1.shape)
 image2=cv2.imread("imgs/part2/2.jpg")
-image2=cv2.resize(image2,(640,512))
+# image2=cv2.resize(image2,(640,512))
 
 print(image2.shape)
 feat1 = np.load("imgs/part2/1.jpg.r2d2")
